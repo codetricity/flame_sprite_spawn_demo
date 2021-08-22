@@ -15,7 +15,6 @@ int numberDragonsOnScreen = 0;
 class DragonGame extends BaseGame with HasTappableComponents {
   late ui.Image backTop;
   ui.Image? dragon;
-  bool initialized = false;
   int maxDragonsOnScreen = 12;
 
   Timer dragonSpawnTimer = Timer(1, repeat: true);
@@ -58,11 +57,6 @@ class DragonGame extends BaseGame with HasTappableComponents {
     if (numberDragonsOnScreen <= maxDragonsOnScreen) {
       dragonSpawnTimer.update(dt);
     }
-  }
-
-  @override
-  void render(Canvas canvas) {
-    super.render(canvas);
   }
 }
 

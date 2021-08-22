@@ -4,6 +4,10 @@
 
 Spawn characters indefinitely.
 
+[video tutorial part 1](https://youtu.be/dHfQ4g_2Jv8)
+[video tutorial part 2](https://youtu.be/sytSNSmi1zw)
+
+
 ## More Tutorials
 
 * [23 Flutter Flame Tutorial Videos](https://youtube.com/playlist?list=PLxvyAnoL-vu49mglrFB5_GlubMWzYqp68) - All free (this is a hobby)
